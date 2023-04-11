@@ -1,0 +1,192 @@
+
+
+Session: 23/03/2023 17:59:45
+
+23/03/2023 17:59:56 --- 192.168.1.13
+heart rate:94, temperature:388, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:00:01 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:94, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:00:04 --- 192.168.1.13
+heart rate:55, temperature:395, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:00:09 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:55, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:00:12 --- 192.168.1.13
+heart rate:65, temperature:362, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+
+
+Session: 23/03/2023 18:03:50
+
+23/03/2023 18:04:00 --- 192.168.1.13
+heart rate:64, temperature:340, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:04:05 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:64, 
+Denied Packet (Keyword Detection Fail)
+
+
+
+Session: 23/03/2023 18:05:37
+
+23/03/2023 18:06:54 --- 192.168.1.13
+AppID:1, heart rate:70, temperature:38.50, 
+Denied Packet (Data Validation Fail)
+
+23/03/2023 18:06:54 --- 192.168.1.13
+heart rate:70, temperature:385, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:06:59 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:70, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:07:02 --- 192.168.1.13
+AppID:1, heart rate:87, temperature:39.50, 
+Denied Packet (Data Validation Fail)
+
+23/03/2023 18:07:02 --- 192.168.1.13
+heart rate:87, temperature:395, calories burned:0, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:07:07 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:87, 
+Denied Packet (Keyword Detection Fail)
+
+
+
+Session: 23/03/2023 18:09:32
+
+23/03/2023 18:11:14 --- 192.168.1.13
+AppID:1, heart rate:78, temperature:38.20, 
+Denied Packet (Data Validation Fail)
+
+23/03/2023 18:11:14 --- 192.168.1.13
+AppID:1, temperature:38.20, calories burned:05, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:11:17 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:78, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:11:20 --- 192.168.1.13
+AppID:1, heart rate:52, temperature:38.70, 
+Denied Packet (Data Validation Fail)
+
+23/03/2023 18:11:20 --- 192.168.1.13
+AppID:1, temperature:38.70, calories burned:05, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:11:25 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:52, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:11:28 --- 192.168.1.13
+AppID:1, heart rate:56, temperature:36.00, 
+Denied Packet (Data Validation Fail)
+
+23/03/2023 18:11:28 --- 192.168.1.13
+AppID:1, temperature:36.00, calories burned:05, 
+Denied Packet (Keyword Detection Fail)
+
+
+
+Session: 23/03/2023 18:13:23
+
+23/03/2023 18:15:20 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:101, longitude:81.5, latitude:60.9, blood pressure:100/87, 
+Passed Packet
+
+23/03/2023 18:15:30 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:101, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:15:33 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:64, longitude:83.5, latitude:47.9, blood pressure:80/63, 
+Passed Packet
+
+23/03/2023 18:15:43 --- 192.168.1.13
+AppID:1, name:Andrew, heart rate:64, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:15:46 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:90, longitude:29.6, latitude:24.8, blood pressure:101/78, 
+Passed Packet
+
+
+
+Session: 23/03/2023 18:17:29
+
+23/03/2023 18:17:30 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:51, longitude:52.2, latitude:68.8, blood pressure:112/98, 
+Passed Packet
+
+
+
+Session: 23/03/2023 18:18:14
+
+23/03/2023 18:18:47 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:104, longitude:22.5, latitude:85.6, blood pressure:126/83, 
+Passed Packet
+
+23/03/2023 18:18:57 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:104, 
+Passed Packet
+
+23/03/2023 18:19:00 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:107, longitude:82.1, latitude:25.8, blood pressure:141/90, 
+Passed Packet
+
+23/03/2023 18:19:10 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:107, 
+Passed Packet
+
+23/03/2023 18:19:13 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:66, longitude:88.3, latitude:76.4, blood pressure:80/72, 
+Passed Packet
+
+23/03/2023 18:19:36 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:66, longitude:70.0, latitude:95.9, blood pressure:137/83, 
+Passed Packet
+
+23/03/2023 18:19:46 --- 192.168.1.13
+AppID:1, name:A*****, heart rate:66, 
+Passed Packet
+
+23/03/2023 18:19:49 --- 192.168.1.13
+AppID:1, name:J*****, heart rate:83, longitude:41.4, latitude:70.3, blood pressure:109/64, 
+Passed Packet
+
+23/03/2023 18:19:59 --- 192.168.1.13
+AppID:1, name:A*****, heart rate:83, 
+Passed Packet
+
+
+
+Session: 23/03/2023 18:20:46
+
+23/03/2023 18:21:13 --- 192.168.1.13
+AppID:1, name:Jo****, heart rate:70, longitude:30.6, latitude:18.4, blood pressure:148/97, 
+Passed Packet
+
+23/03/2023 18:21:19 --- 192.168.1.13
+AppID:1, name:An****, heart rate:70, 
+Passed Packet
+
+23/03/2023 18:21:19 --- 192.168.1.13
+AppID:2, name:Ben, heart rate:70, number of steps:03, distance traveled:010, calories burned:05, 
+Denied Packet (Keyword Detection Fail)
+
+23/03/2023 18:21:22 --- 192.168.1.13
+AppID:1, name:Jo****, heart rate:63, longitude:16.6, latitude:74.8, blood pressure:118/75, 
+Passed Packet
+

@@ -1,0 +1,111 @@
+{
+    "policy_rules_ft": [
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "heart rate",
+        "attributeType": "int",
+        "Condition": [
+        {
+            "function": "greater-than-equal",
+            "attributeValue": 200 
+        },
+        {
+            "operation": "AND"
+        },
+        {
+            "function": "less-than-equal",
+            "attributeValue": 50
+        }
+        ]
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "temperature",
+        "attributeType": "float",
+        "Condition": [
+        {
+            "function": "greater-than-equal",
+            "attributeValue": 28 
+        },
+        {
+            "operation": "AND"
+        },
+        {
+            "function": "less-than-equal",
+            "attributeValue": 42
+        }
+        ]
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Name"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Address"
+        
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Birthdate"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Telephone Number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Fax Number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Email Address"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Social Security Number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Medical record number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Health plan beneficiary number"
+        
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Account number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "License number"
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Vehicle identifiers"
+        
+    },
+    {
+        "Action": "Block",
+        "Type": "data",
+        "Resource": "Device identifiers"
+    }
+    ]
+}
+    

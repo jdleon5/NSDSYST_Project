@@ -1,0 +1,79 @@
+{
+    "policy_rules_pm": [
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "AppID",
+        "attributeType": "integer"
+    },
+    {
+        "Action": "Transform",
+        "Type": "data",
+        "Resource": "name",
+        "attributeType": "string"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "heart rate",
+        "attributeType": "integer",
+        "Condition": [
+        {
+            "function": "greater-than-equal",
+            "attributeValue": 200 
+        },
+        {
+            "operation": "AND"
+        },
+        {
+            "function": "less-than-equal",
+            "attributeValue": 50
+        }
+        ]
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "temperature",
+        "attributeType": "decimal",
+        "Condition": [
+        {
+            "function": "greater-than-equal",
+            "attributeValue": 28 
+        },
+        {
+            "operation": "AND"
+        },
+        {
+            "function": "less-than-equal",
+            "attributeValue": 42
+        }
+        ]
+    },
+    {
+        "Action": "Transform",
+        "Type": "data",
+        "Resource": "latitude",
+        "attributeType": "decimal"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "blood pressure",
+        "attributeType": "string"
+    },
+    {
+        "Action": "Transform",
+        "Type": "data",
+        "Resource": "longitude",
+        "attributeType": "decimal"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "respiration rate",
+        "attributeType": "integer"
+    }
+    ]
+}
+    
