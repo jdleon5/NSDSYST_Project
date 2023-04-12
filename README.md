@@ -1,9 +1,9 @@
-# Thesis_IoT_Gateway
+# NSDSYST_Project
 
 Parts TO DO:
-* ESP32 Device code
-* Gateway Platform code
+* Simulated IoT data
+* Gateway Filtering code
+* RabbitMQ Server-side code
 * Server code (Receiver of data)
 * Policy (Set of Policy Rules)
 * Policy Administrator (Application)
-* missing(?)
