@@ -1,18 +1,16 @@
-#This code is from ACTIVITY 2 MESSAGE QUEUE
+import pika 
 
-import pika, json 
-credentials = pika.PlainCredentials('rabbituser','rabbit1234')
-connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.5.39', 5672 ,'/',credentials))
-channel = connection.channel()
-channel.exchange_declare(exchange='logs', exchange_type='fanout') 
+credentials = pika.PlainCredentials('rabbituser','rabbit1234') 
+connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.5.39',5672,'/',credentials))
+channel = connection.channel() 
+channel.exchange_declare(exchange='logs', exchange_type='fanout')
+result = channel.queue_declare(queue='', exclusive=True)
+queue_name = result.method.queue 
+channel.queue_bind(exchange='logs', queue=queue_name) 
 
-name=input('Enter your name: ')
-msg=input('Enter your message: ') 
-msg_dict={'name':name, 'msg':msg}
-print (msg_dict)
-msg_json=json.dumps(msg_dict) 
-channel.basic_publish(exchange='logs', routing_key='', body=msg_json) 
-#Specify routing key so we can route which server application takes the data
-
-print(" [x] Sent '%s'",(msg_dict))
-connection.close()
+def callback(ch, method, properties, body):
+    print(" [x] Received %r" % body) 
+channel.basic_consume( queue=queue_name, on_message_callback=callback,
+auto_ack=True)
+print(' [*] Waiting for messages. To exit press CTRL+C')
+channel.start_consuming()

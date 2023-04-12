@@ -22,6 +22,18 @@
     {
         "Action": "Forward",
         "Type": "data",
+        "Resource": "steps",
+        "attributeType": "int"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "calories",
+        "attributeType": "int"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
         "Resource": "temperature",
         "attributeType": "float",
         "Condition": [
