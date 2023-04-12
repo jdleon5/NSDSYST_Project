@@ -4,7 +4,7 @@ import pika, random, json
 credentials = pika.PlainCredentials('rabbituser', 'rabbit1234')
 connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.5.39', 5672 ,'/', credentials))
 channel = connection.channel()
-channel.exchange_declare(exchange='logs', exchange_type='fanout')
+channel.queue_declare(queue='fittracker') 
 
 #While True:
 #DATA GENERATION
@@ -26,10 +26,10 @@ while True:
 
 # name=input('Enter your name: ')
 # msg=input('Enter your message: ') 
-msg_dict={'AppID':1, 'steps':steps, 'calories':cal}
+msg_dict={'AppID':2, 'name':'Andrew', 'latitude':latitude, 'longitude':longitude}
 print (msg_dict)
 msg_json=json.dumps(msg_dict) 
-channel.basic_publish(exchange='logs', routing_key='fittracker', body=msg_json) 
+channel.basic_publish(exchange='', routing_key='fittracker', body=msg_json) 
 #Specify routing key so we can route which server application takes the data
 
 print(" [x] Sent '%s'",(msg_dict))

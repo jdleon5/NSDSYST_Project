@@ -20,6 +20,12 @@
         ]
     },
     {
+        "Action": "Transform",
+        "Type": "data",
+        "Resource": "name",
+        "attributeType": "string"
+    },
+    {
         "Action": "Forward",
         "Type": "data",
         "Resource": "steps",
@@ -30,6 +36,18 @@
         "Type": "data",
         "Resource": "calories",
         "attributeType": "int"
+    },
+    {
+        "Action": "Transform",
+        "Type": "data",
+        "Resource": "latitude",
+        "attributeType": "decimal"
+    },
+    {
+        "Action": "Forward",
+        "Type": "data",
+        "Resource": "blood pressure",
+        "attributeType": "string"
     },
     {
         "Action": "Forward",

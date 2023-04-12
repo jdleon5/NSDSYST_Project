@@ -51,24 +51,6 @@
         ]
     },
     {
-        "Action": "Transform",
-        "Type": "data",
-        "Resource": "latitude",
-        "attributeType": "decimal"
-    },
-    {
-        "Action": "Forward",
-        "Type": "data",
-        "Resource": "blood pressure",
-        "attributeType": "string"
-    },
-    {
-        "Action": "Transform",
-        "Type": "data",
-        "Resource": "longitude",
-        "attributeType": "decimal"
-    },
-    {
         "Action": "Forward",
         "Type": "data",
         "Resource": "respiration rate",
